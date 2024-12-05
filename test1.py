@@ -1,15 +1,15 @@
 #Készítsen python kódot ami bekér egy egész hőmérséklet értéket 
 #és kiírja hogy az adott értéken milyen halmazállapotú a víz.
 
+homersekletC = 0
 def homerseklet():
-    homersekletC = int(input("Kérek egy hőmérséklet értéket: "))
-
     if homersekletC <= 0:
-        print("Sziárd halmazállapt.") #igaz ág
+        return "Sziárd halmazállapt." #igaz ág
     elif homersekletC < 100:
-        print("Folyékony halmazállapot.")
+        return "Folyékony halmazállapot."
     else:
-         print("Légnemű halmazállapt.") #hamis ág
+        return "Légnemű halmazállapt." #hamis ág
     
 
-homerseklet()
+homersekletC = int(input("Kérek egy hőmérséklet értéket: ")) 
+print(homerseklet())
