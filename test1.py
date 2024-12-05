@@ -1,6 +1,7 @@
 #Készítsen python kódot ami bekér egy egész hőmérséklet értéket 
 #és kiírja hogy az adott értéken milyen halmazállapotú a víz.
 
+#git teszthez
 def homerseklet():
     if homersekletC <= 0:
         return "Sziárd halmazállapt." #igaz ág
