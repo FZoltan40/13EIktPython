@@ -1,6 +1,7 @@
 #Töltsön fel egy listát 20 véletlen számmal 1-50 között
 import random
 
+#ez is egy teszt a githez
 lista = []
 def veletlen():
     hossz = 20
